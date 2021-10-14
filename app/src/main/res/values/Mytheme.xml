@@ -4,7 +4,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="background" parent="background" tools:ignore="ResourceCycle">
-        <item name="background">@drawable/mainbackground</item>
+        <item name="background"></item>
     </style>
 
     <style name="Mytheme"></style>
