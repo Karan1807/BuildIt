@@ -13,7 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuildIt">
         <activity
-            android:name=".ManagerDashboard"
+            android:name=".Summary"
+            android:exported="true" />
+        <activity
+            android:name=".LabourProgress"
+            android:exported="true" />
+        <activity
+            android:name=".MaterialPurchase"
+            android:exported="true" />
+        <activity
+            android:name=".MaterialConsumption"
+            android:exported="true" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignInActivity"
             android:exported="true" />
         <activity
             android:name=".SiteActivity"
@@ -25,7 +40,7 @@
             android:name=".InformationActivity"
             android:exported="true" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".ManagerDashboard"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
