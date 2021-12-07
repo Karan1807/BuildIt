@@ -33,47 +33,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/site_cardView"
-        android:layout_width="132dp"
-        android:elevation="0dp"
-        android:layout_height="132dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="215dp"
-        app:cardBackgroundColor="@color/transparent"
-        app:cardCornerRadius="15dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:id="@+id/site_card"
-            android:layout_height="match_parent">
-
-            <ImageView
-                android:id="@+id/site_image"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.507"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.238" />
-
-            <TextView
-                android:id="@+id/site_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Site"
-                android:textSize="15dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/site_image" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
@@ -86,7 +46,6 @@
         android:elevation="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/site_cardView"
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -124,12 +83,11 @@
         android:layout_width="132dp"
         android:layout_height="132dp"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="76dp"
         app:cardBackgroundColor="@color/transparent"
         app:cardCornerRadius="15dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/site_cardView">
-
+        app:layout_constraintTop_toBottomOf="@+id/textView">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -157,6 +115,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/material_purchase_image" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -210,39 +169,36 @@
         android:layout_marginTop="40dp"
         app:cardBackgroundColor="@color/transparent"
         app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/material_purchase_card"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Material_consumption_card">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/summary_image"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/material_purchase_card"
-        app:layout_constraintVertical_bias="0.025"><androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
 
-        <ImageView
-            android:id="@+id/summary_image"
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.507"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.238" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/summary_image" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Summary"
-            android:textSize="15dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/summary_image" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-
+</androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 

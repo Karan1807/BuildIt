@@ -3,18 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_brickwork.xml" value="0.12894736842105264" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_carpenter.xml" value="0.12894736842105264" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_details.xml" value="0.12" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_electrician.xml" value="0.12894736842105264" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_fitter.xml" value="0.12894736842105264" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_gypsum.xml" value="0.12894736842105264" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_information.xml" value="0.17889492753623187" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_labour_progress.xml" value="0.19010416666666666" />
-        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_labouractivity.xml" value="0.12894736842105264" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_manager_dashboard.xml" value="0.14" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_material_consumption.xml" value="0.16" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_material_purchase.xml" value="0.15" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_painter.xml" value="0.12894736842105264" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_plaster.xml" value="0.12894736842105264" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_plumber.xml" value="0.12006578947368421" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_sign_in.xml" value="0.1693840579710145" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_site.xml" value="0.1693840579710145" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_summary.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_tiels.xml" value="0.12894736842105264" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_tiles.xml" value="0.12894736842105264" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/item_view.xml" value="0.22" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/itemview_details.xml" value="0.2" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/withindetailsitemview.xml" value="0.12" />
       </map>
     </option>
   </component>

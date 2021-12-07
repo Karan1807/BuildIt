@@ -13,6 +13,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuildIt">
         <activity
+            android:name=".Activities.PlasterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.TilesActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".Activities.ElectricianActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.PlumberActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.GypsumActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.BrickworkActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.PainterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.CarpenterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.FitterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.Labouractivity"
+            android:exported="true" />
+        <activity
             android:name=".Summary"
             android:exported="true" />
         <activity
@@ -25,22 +56,22 @@
             android:name=".MaterialConsumption"
             android:exported="true" />
         <activity
-            android:name=".DetailsActivity"
+            android:name=".Activities.DetailsActivity"
             android:exported="true" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".Activities.SignInActivity"
             android:exported="true" />
         <activity
-            android:name=".SiteActivity"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
-        <activity
-            android:name=".InformationActivity"
+            android:name=".Activities.SiteActivity"
             android:exported="true" />
         <activity
             android:name=".ManagerDashboard"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.InformationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

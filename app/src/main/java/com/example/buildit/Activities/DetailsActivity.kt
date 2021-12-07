@@ -1,19 +1,12 @@
-package com.example.buildit
+package com.example.buildit.Activities
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.gms.auth.api.signin.GoogleSignIn
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions
-import com.google.android.gms.common.api.ApiException
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.GoogleAuthProvider
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
+import com.example.buildit.DetailsAdapter
+import com.example.buildit.R
+import com.example.buildit.data_details
 
 class DetailsActivity : AppCompatActivity() {
 
@@ -40,12 +33,6 @@ class DetailsActivity : AppCompatActivity() {
 
         details_recycler.layoutManager = GridLayoutManager(this,2)
         details_recycler.adapter = DetailsAdapter(data1)
-
-
-
-
-
-
 
     }
 }

@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
+import com.example.buildit.Activities.*
 
 class DetailsAdapter (var data: ArrayList<data_details>) : RecyclerView.Adapter<DetailsAdapter.IntViewHolder>() {
     class IntViewHolder(val row: View): RecyclerView.ViewHolder(row){
@@ -21,9 +21,54 @@ class DetailsAdapter (var data: ArrayList<data_details>) : RecyclerView.Adapter<
         val holder = IntViewHolder(layout)
         layout.setOnClickListener {
             if(data[holder.adapterPosition].name=="Labour") {
-                val intent = Intent(parent.context, InformationActivity::class.java)
+                val intent = Intent(parent.context, Labouractivity::class.java)
                 parent.context.startActivity(intent)
             }
+            else
+                if(data[holder.adapterPosition].name=="Fitter") {
+                    val intent = Intent(parent.context, FitterActivity::class.java)
+                    parent.context.startActivity(intent)
+                }
+                else
+                    if(data[holder.adapterPosition].name=="Carpenter") {
+                        val intent = Intent(parent.context, CarpenterActivity::class.java)
+                        parent.context.startActivity(intent)
+                    }
+                    else
+                        if(data[holder.adapterPosition].name=="Painter") {
+                            val intent = Intent(parent.context, PainterActivity::class.java)
+                            parent.context.startActivity(intent)
+                        }
+                        else
+                            if(data[holder.adapterPosition].name=="Plaster Mistry") {
+                                val intent = Intent(parent.context, PlasterActivity::class.java)
+                                parent.context.startActivity(intent)
+                            }
+                            else
+                                if(data[holder.adapterPosition].name=="Brickwork") {
+                                    val intent = Intent(parent.context, BrickworkActivity::class.java)
+                                    parent.context.startActivity(intent)
+                                }
+                                else
+                                    if(data[holder.adapterPosition].name=="Gypsum") {
+                                        val intent = Intent(parent.context, GypsumActivity::class.java)
+                                        parent.context.startActivity(intent)
+                                    }
+                                    else
+                                        if(data[holder.adapterPosition].name=="Plumber") {
+                                            val intent = Intent(parent.context, PlumberActivity::class.java)
+                                            parent.context.startActivity(intent)
+                                        }
+                                        else
+                                            if(data[holder.adapterPosition].name=="Electrician") {
+                                                val intent = Intent(parent.context, ElectricianActivity::class.java)
+                                                parent.context.startActivity(intent)
+                                            }
+                                            else
+                                                if(data[holder.adapterPosition].name=="Tiles") {
+                                                    val intent = Intent(parent.context, TilesActivity::class.java)
+                                                    parent.context.startActivity(intent)
+                                                }
 
         }
 
@@ -32,10 +77,10 @@ class DetailsAdapter (var data: ArrayList<data_details>) : RecyclerView.Adapter<
 
     override fun onBindViewHolder(holder: IntViewHolder, position: Int) {
         val item = data[position]
-        Glide.with(holder.details_imageView.context).load(item.Image).into(holder.details_imageView)
 
 
-        holder.details_textView.text = item.name.toString()
+
+        holder.details_textView.text = item.name
     }
 
     override fun getItemCount(): Int {
