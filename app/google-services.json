@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "555772876641",
+    "firebase_url": "https://buildit-ac8f7-default-rtdb.firebaseio.com",
     "project_id": "buildit-ac8f7",
     "storage_bucket": "buildit-ac8f7.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "555772876641-umlrbf7n3hija2f821sdstdo7n0lajqo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buildit",
+            "certificate_hash": "9875779df3016f7f644a0e61746ed705f0208135"
+          }
+        },
         {
           "client_id": "555772876641-a8jg0rp7r15k9bk9mgj1dd4pne3fpumh.apps.googleusercontent.com",
           "client_type": 3

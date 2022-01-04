@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.cardview.widget.CardView
-import com.example.buildit.ManagerDashboard
+import com.example.buildit.DataClass.ManagerDashboard
 import com.example.buildit.R
 
 class MainActivity : AppCompatActivity() {

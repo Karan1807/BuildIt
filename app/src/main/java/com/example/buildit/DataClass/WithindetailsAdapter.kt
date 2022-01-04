@@ -1,10 +1,10 @@
-package com.example.buildit
+package com.example.buildit.DataClass
 
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.buildit.R
 
 class withindetailsAdapter (var data: ArrayList<data_withindetails>) : RecyclerView.Adapter<withindetailsAdapter.IntViewHolder>() {
     class IntViewHolder(val row: View): RecyclerView.ViewHolder(row){

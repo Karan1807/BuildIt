@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_add_site.xml" value="0.12" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_brickwork.xml" value="0.12894736842105264" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_carpenter.xml" value="0.12894736842105264" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_details.xml" value="0.12" />
@@ -26,6 +27,7 @@
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/activity_tiles.xml" value="0.12894736842105264" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/item_view.xml" value="0.22" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/itemview_details.xml" value="0.2" />
+        <entry key="..\:/Android/BuildIt/app/src/main/res/layout/site_users.xml" value="0.18" />
         <entry key="..\:/Android/BuildIt/app/src/main/res/layout/withindetailsitemview.xml" value="0.12" />
       </map>
     </option>

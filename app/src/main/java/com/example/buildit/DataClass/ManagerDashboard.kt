@@ -1,10 +1,11 @@
-package com.example.buildit
+package com.example.buildit.DataClass
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.cardview.widget.CardView
 import com.example.buildit.Activities.DetailsActivity
+import com.example.buildit.R
 
 class ManagerDashboard : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

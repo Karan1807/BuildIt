@@ -13,12 +13,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuildIt">
         <activity
+            android:name=".Activities.AddSiteActivity"
+            android:exported="true" />
+        <activity
             android:name=".Activities.PlasterActivity"
             android:exported="true" />
         <activity
             android:name=".Activities.TilesActivity"
             android:exported="true" />
-
         <activity
             android:name=".Activities.ElectricianActivity"
             android:exported="true" />
@@ -44,34 +46,34 @@
             android:name=".Activities.Labouractivity"
             android:exported="true" />
         <activity
-            android:name=".Summary"
+            android:name=".DataClass.Summary"
             android:exported="true" />
         <activity
-            android:name=".LabourProgress"
+            android:name=".DataClass.LabourProgress"
             android:exported="true" />
         <activity
-            android:name=".MaterialPurchase"
+            android:name=".DataClass.MaterialPurchase"
             android:exported="true" />
         <activity
-            android:name=".MaterialConsumption"
+            android:name=".DataClass.MaterialConsumption"
             android:exported="true" />
         <activity
             android:name=".Activities.DetailsActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.SignInActivity"
+            android:name=".Activities.MainActivity"
             android:exported="true" />
         <activity
             android:name=".Activities.SiteActivity"
             android:exported="true" />
         <activity
-            android:name=".ManagerDashboard"
+            android:name=".DataClass.ManagerDashboard"
             android:exported="true" />
         <activity
             android:name=".Activities.InformationActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.MainActivity"
+            android:name=".Activities.SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.buildit.DetailsAdapter
+import com.example.buildit.DataClass.DetailsAdapter
 import com.example.buildit.R
 import com.example.buildit.data_details
 
