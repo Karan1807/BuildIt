@@ -1,4 +1,4 @@
-package com.example.buildit.DataClass
+package com.example.buildit.Activities.DetailsActivity
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.buildit.Activities.*
 import com.example.buildit.R
 import com.example.buildit.data_details
 

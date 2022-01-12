@@ -13,64 +13,64 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BuildIt">
         <activity
-            android:name=".Activities.AddSiteActivity"
+            android:name=".Activities.SiteActivities.AddSiteActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.PlasterActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.PlasterActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.TilesActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.TilesActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.ElectricianActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.ElectricianActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.PlumberActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.PlumberActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.GypsumActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.GypsumActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.BrickworkActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.BrickworkActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.PainterActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.PainterActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.CarpenterActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.CarpenterActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.FitterActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.FitterActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.Labouractivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.Labouractivity"
             android:exported="true" />
         <activity
-            android:name=".DataClass.Summary"
+            android:name=".Activities.ManagerDashboard.Summary"
             android:exported="true" />
         <activity
-            android:name=".DataClass.LabourProgress"
+            android:name=".Activities.ManagerDashboard.LabourProgress"
             android:exported="true" />
         <activity
-            android:name=".DataClass.MaterialPurchase"
+            android:name=".Activities.ManagerDashboard.MaterialPurchase"
             android:exported="true" />
         <activity
-            android:name=".DataClass.MaterialConsumption"
+            android:name=".Activities.ManagerDashboard.MaterialConsumption"
             android:exported="true" />
         <activity
-            android:name=".Activities.DetailsActivity"
+            android:name=".Activities.ManagerDashboard.DetailsActivity"
             android:exported="true" />
         <activity
             android:name=".Activities.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".Activities.SiteActivity"
+            android:name=".Activities.SiteActivities.SiteActivity"
             android:exported="true" />
         <activity
-            android:name=".DataClass.ManagerDashboard"
+            android:name=".Activities.ManagerDashboard.ManagerDashboard"
             android:exported="true" />
         <activity
-            android:name=".Activities.InformationActivity"
+            android:name="com.example.buildit.Activities.DetailsActivity.InformationActivity"
             android:exported="true" />
         <activity
             android:name=".Activities.SignInActivity"

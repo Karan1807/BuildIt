@@ -1,12 +1,12 @@
-package com.example.buildit.Activities
+package com.example.buildit.Activities.ManagerDashboard
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.buildit.R
 
-class FitterActivity : AppCompatActivity() {
+class MaterialPurchase : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_fitter)
+        setContentView(R.layout.activity_material_purchase)
     }
 }

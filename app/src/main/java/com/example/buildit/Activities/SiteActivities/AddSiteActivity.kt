@@ -1,4 +1,4 @@
-package com.example.buildit.Activities
+package com.example.buildit.Activities.SiteActivities
 
 import android.content.ContentValues
 import android.content.Intent
@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
-import com.example.buildit.DataClass.userdata
+import com.example.buildit.Activities.SignInActivity
 import com.example.buildit.R
 import com.google.android.material.textfield.TextInputEditText
 import com.google.firebase.auth.ktx.auth
@@ -64,7 +64,7 @@ AddSiteActivity : AppCompatActivity() {
         val key = database.child("Users").push().key
         val user_data = userdata(name,address)
         val data = user_data.toMap()
-        val userupdates = hashMapOf<String, Any>("Users/${Firebase.auth.uid}/$key" to data)
+        val userupdates = hashMapOf<String, Any>("Users/${Firebase.auth.uid}/$name" to data)
         database.updateChildren(userupdates).addOnSuccessListener {
             Log.d(ContentValues.TAG,"Successfully stored user data to firebase db")
             startActivity(Intent(this, SiteActivity::class.java))

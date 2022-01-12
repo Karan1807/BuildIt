@@ -1,4 +1,4 @@
-package com.example.buildit.DataClass
+package com.example.buildit.Activities.SiteActivities
 
 import android.content.Intent
 import android.view.LayoutInflater
@@ -7,14 +7,14 @@ import android.view.ViewGroup
 
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-
-import com.example.buildit.Activities.AddSiteActivity
+import com.example.buildit.Activities.ManagerDashboard.ManagerDashboard
+import com.example.buildit.Activities.ManagerDashboard.MaterialConsumption
 
 import com.example.buildit.R
 
 class SiteUsersAdapter (private val SiteUsersData:ArrayList<SiteUserData>) : RecyclerView.Adapter<SiteUsersAdapter.ViewHolder>() {
 
-    override fun onBindViewHolder(holder: SiteUsersAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val SiteUsersData = SiteUsersData[position]
         holder.Name_site.text = SiteUsersData.Name.toString()
         holder.Address.text = SiteUsersData.Address.toString()
@@ -22,11 +22,11 @@ class SiteUsersAdapter (private val SiteUsersData:ArrayList<SiteUserData>) : Rec
 
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SiteUsersAdapter.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.site_users,parent,false)
         val holder  = ViewHolder(view)
         view.setOnClickListener {
-            val intent = Intent(parent.context,AddSiteActivity::class.java)
+            val intent = Intent(parent.context, ManagerDashboard::class.java)
             intent.putExtra("Name",SiteUsersData[holder.adapterPosition].Name)
             intent.putExtra("Address",SiteUsersData[holder.adapterPosition].Address)
             parent.context.startActivity(intent)

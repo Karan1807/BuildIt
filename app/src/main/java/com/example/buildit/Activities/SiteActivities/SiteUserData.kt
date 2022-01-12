@@ -1,4 +1,4 @@
-package com.example.buildit.DataClass
+package com.example.buildit.Activities.SiteActivities
 
 import com.google.firebase.database.Exclude
 
